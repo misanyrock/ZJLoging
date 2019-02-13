@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJLoging_Example' do
+  pod 'ZJLoging', :path => '../'
+
+  target 'ZJLoging_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
