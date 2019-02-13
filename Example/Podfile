@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'ZJLoging_Example' do
   pod 'ZJLoging', :path => '../'
+  pod 'ZJNetworking', :path => '../../ZJNetworking'
 
   target 'ZJLoging_Tests' do
     inherit! :search_paths
